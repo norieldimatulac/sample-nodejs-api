@@ -30,7 +30,7 @@ describe('GET /:num1/:num2', () => {
     it('returns sum of 2 numbers', async () => {
         const res = await request(app).get('/hello/1/2').send();
         expect(res.statusCode).toEqual(200);
-        expect(res.body.sum).toEqual(4);
+        expect(res.body.sum).toEqual(3);
     });
 
 });
