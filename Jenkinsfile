@@ -5,6 +5,9 @@ pipeline {
             args '-p 8081:8081'
         }
     }
+     environment {
+            CI = 'true'
+        }
     stages {
         stage('Build') {
             steps {
