@@ -1,0 +1,27 @@
+{
+  "name": "sample-nodejs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon server.js -w .",
+    "prod": "node server.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norieldimatulac/sample-nodejs-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norieldimatulac/sample-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/norieldimatulac/sample-nodejs-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jest": "^29.3.1",
+    "supertest": "^6.3.1",
+    "winston": "^3.8.2"
+  }
+}
