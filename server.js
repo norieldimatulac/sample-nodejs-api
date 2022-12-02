@@ -7,8 +7,8 @@ const helloRoutes = makeTokenHello();
 
 app.use('/hello', helloRoutes);
 
-app.listen(process.env.API_PORT || '3000', () => {
+app.listen(process.env.API_PORT || '9000', () => {
 
-    log.info(`Server is running on port: ${process.env.API_PORT || '3000'}`)
+    log.info(`Server is running on port: ${process.env.API_PORT || '9000'}`)
 
 });
